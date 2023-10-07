@@ -1,0 +1,301 @@
+body {
+  margin: 0;
+  font-family: "Red Hat Text", sans-serif;
+}
+/* HEADER CSS */
+
+.site-container {
+  max-width: 1080px;
+  margin: auto;
+}
+
+.banner {
+  background-color: #f9f9f9;
+}
+header{
+  background-color: #EFEFEF;
+  margin: 0;
+}
+.nav {
+  text-align: center;
+  
+}
+.nav ul{
+  padding: 0;
+  margin: 0;
+}
+.nav li.mainOptions{
+  padding: 20px 20px;
+}
+
+.nav li.mainOptions:hover .dropDown{
+  display: block;
+}
+
+ul.dropDown{
+  background-color:#EFEFEF;
+} 
+.nav ul.dropDown li{
+  display: block;
+}
+
+.nav a:hover{
+  color: #2ca438;
+}
+
+.nav button{
+  width: 151px;
+    height: 56px;
+    background-color: #2CA438;
+    color: #fff;
+    border-radius: 39px;
+    border-radius: none;
+    border: none;
+    font-size: larger;
+} 
+
+.nav button:hover{
+  background-color: #000f36;
+}
+
+/* why using (.nav .mainul li)
+doesn't work and (.mainul li) works? */
+.nav .mainul li{
+  list-style-type:none;
+  display: inline-block;
+}
+
+.nav ul li a{
+  text-decoration: none;
+  font-size: 21px;
+  color: #010101;
+  font-weight: 500;
+  padding: 20px;
+}
+
+.nav ul.dropDown{
+  display: none;
+  position: absolute;
+  top:100px
+
+}
+/* UNORDERED LIST CSS */
+/* 
+doubt? using selectors */
+
+.clear {
+  clear: both;
+}
+
+/*CONTAINER2 */
+
+.img {
+  width: 100%;
+}
+
+.site-container2 {
+  max-width: 1920px;
+  margin: auto;
+  padding: 2rem;
+}
+
+.photoDiv1 {
+  max-width: 50%;
+  float: right;
+}
+
+.textDiv1 {
+  float: left;
+  width: 44%;
+
+  margin: auto;
+}
+.bigHeadings {
+  font-size: 4rem;
+  color: #000f36;
+}
+.bigHeadingsPara {
+  font-size: 1.5rem;
+  color: #000f36;
+}
+
+.textDiv2 {
+  float: right;
+  width: 45%;
+  margin-top: 50px;
+}
+div.textDiv2 a {
+  text-decoration: underline;
+}
+
+.photoDiv2 {
+  float: left;
+  max-width: 50%;
+}
+
+/* CONTAINER 3  */
+
+.textDiv3 {
+  float: left;
+  width: 50%;
+}
+
+.photoDiv3 {
+  float: right;
+  width: 50%;
+}
+
+.container {
+  height: 150px;
+  background-color: #000f36;
+}
+.container:hover {
+  background-color: #2ca438;
+}
+
+.container h1 {
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding-top: 50px;
+  margin: 0;
+}
+
+.subHeading {
+  font-size: 3rem;
+  border-bottom: solid 5px gray;
+}
+
+.subPara {
+  font-size: 1.5rem;
+}
+
+/* CONTAINER4 */
+
+/* DOUBT--SPACE IS LESS B/W IMAGE AND TEXT DIV
+AND HOW TO RESOLVE IT */
+
+.textDiv4 {
+  float: right;
+  max-width: 50%;
+}
+.date {
+  color: #2ca438;
+  font-size: 1.5rem;
+  font-weight: lighter;
+}
+
+.photoDiv4 {
+  float: left;
+  max-width: 50%;
+}
+
+.img4 {
+  width: 100%;
+  padding-right: 2px;
+}
+
+.subHeadings {
+  margin-bottom: 0;
+  font-size: 3rem;
+  border: none;
+}
+
+div.textDiv4 a {
+  font-size: 1.5rem;
+  text-decoration: underline;
+}
+
+/* CONTAINER 5 */
+
+.textDiv5 {
+  float: left;
+  max-width: 50%;
+}
+.textDiv5 .subHeadings {
+  color: #2ca438;
+}
+.photoDiv5 {
+  float: right;
+  max-width: 50%;
+}
+
+/* CONTAINER 6 & PLANNER  */
+
+.planner {
+  background-color: #efefef;
+}
+
+.trainingPlan {
+  font-size: 3rem;
+  border-bottom: #fff 5px solid;
+}
+
+.days {
+  font-size: 1.8rem;
+  color: #000f36;
+}
+.workoutTiming {
+  font-size: 1.5rem;
+  color: #000f36;
+  margin: 5px 0;
+}
+
+.daysLeft {
+  float: left;
+  max-width: 50%;
+}
+.daysRight {
+  float: right;
+  max-width: 50%;
+}
+
+/* CONTAIER 7 */
+
+.textDiv7 {
+  float: left;
+  max-width: 50%;
+}
+
+.mapDiv7 {
+  float: right;
+  max-width: 50%;
+  max-height: 100%;
+}
+
+/* FOOTER START */
+
+footer {
+  background-color: #000f36;
+}
+
+.address p {
+  margin-top: 0;
+}
+
+a {
+  font-size: 2rem;
+  display: block;
+  text-decoration: none;
+}
+
+footer a,
+footer .workoutTiming {
+  color: #fff;
+}
+
+.address {
+  float: left;
+  width: 33.33%;
+  text-align: center;
+}
+.socialMedia1 {
+  float: left;
+  width: 33.33%;
+  text-align: center;
+}
+
+.socialMedia2 {
+  float: right;
+  width: 33.33%;
+  text-align: center;
+}
